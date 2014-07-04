@@ -8,8 +8,8 @@ GIT
       tilt (>= 1.0)
 
 GIT
-  remote: https://github.com/tmm1/http_parser.rb.git
-  revision: 8595cac0e255c6f94b261144e464d1f7c4a2e594
+  remote: git://github.com/tmm1/http_parser.rb.git
+  revision: e0bd3e9d5921822efdeb8c2adc5a5a6bf3913a19
   branch: latest-upstream
   specs:
     http_parser.rb (0.5.3)
@@ -102,8 +102,8 @@ PLATFORMS
 
 DEPENDENCIES
   compass
-  em-http-request (~> 1.0)
-  eventmachine (~> 1.0.0.beta)
+  em-http-request
+  eventmachine
   heroku-bouncer
   http_parser.rb!
   json

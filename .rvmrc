@@ -1,0 +1,2 @@
+rvm use 2.1.2@log2viz --create
+export $(sed '/^#/d' .env)
