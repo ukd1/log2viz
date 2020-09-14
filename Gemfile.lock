@@ -44,7 +44,7 @@ GEM
     heroku-api (0.3.8)
       excon (~> 0.16.10)
     heroku-bouncer (0.0.1)
-      heroku-api (>= 0.0.0)
+      heroku-api
       omniauth-heroku (>= 0.1.0)
       sinatra (~> 1.0)
     httpauth (0.2.0)
@@ -68,10 +68,10 @@ GEM
     omniauth-oauth2 (1.1.1)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
-    rack (1.5.2)
+    rack (1.6.13)
     rack-flash3 (1.0.3)
       rack
-    rack-protection (1.4.0)
+    rack-protection (1.5.5)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
