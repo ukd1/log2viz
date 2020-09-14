@@ -44,11 +44,11 @@ GEM
     heroku-api (0.3.8)
       excon (~> 0.16.10)
     heroku-bouncer (0.0.1)
-      heroku-api (>= 0.0.0)
+      heroku-api
       omniauth-heroku (>= 0.1.0)
       sinatra (~> 1.0)
     httpauth (0.2.0)
-    json (1.7.7)
+    json (2.3.1)
     jwt (0.1.7)
       multi_json (>= 1.5)
     multi_json (1.6.1)
